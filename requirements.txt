@@ -2,3 +2,4 @@ Flask
 requests
 pycryptodome
 protobuf
+gunicorn
