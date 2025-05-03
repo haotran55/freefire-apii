@@ -166,5 +166,5 @@ def get_player_info():
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }), 500
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+# Để gunicorn dùng được khi deploy trên Render
+app = app
